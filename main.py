@@ -167,7 +167,3 @@ async def delete_task(task_id: str, user: Annotated[dict, Depends(get_current_us
     if deleted_task.deleted_count == 0:
         raise HTTPException(status_code=404, detail="Task not found")
     return {"message": "Task deleted successfully"}
-
-
-
-#asyc implementation, awaits uses and implementation, decoraters in python what, how , why?

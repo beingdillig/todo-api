@@ -2,8 +2,7 @@
 # Project Title
 This is a simple yet efficient ToDo API built using FastAPI, designed for managing tasks with authentication and CRUD functionalities.The API allows users to register, log in, create, update, delete, and retrieve tasks securely. It leverages FastAPI’s speed and automatic documentation while integrating authentication mechanisms for user-based task management.
 
-
-
+&nbsp; 
 # 🚀 Features
 
 ✅ User Authentication (JWT-based)
@@ -16,6 +15,7 @@ This is a simple yet efficient ToDo API built using FastAPI, designed for managi
 
 ✅ Automatic API Documentation (Swagger)
 
+&nbsp; 
 # 🛠 Tech Stack 
 
 - FastAPI - Web framework for high-performance APIs
@@ -54,7 +54,8 @@ To start the FastAPI server, use:
 ~~~
   uvicorn main:app --reload
 ~~~
-    
+
+&nbsp; 
 # 📌 API Endpoints
 
 🔑 Authentication
